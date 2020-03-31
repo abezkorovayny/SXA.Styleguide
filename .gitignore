@@ -350,3 +350,4 @@ healthchecksdb
 /theme/-/media/*.ashx
 /deploy/App_Config/Include
 /deploy.ps1
+/*.helixtemplates
