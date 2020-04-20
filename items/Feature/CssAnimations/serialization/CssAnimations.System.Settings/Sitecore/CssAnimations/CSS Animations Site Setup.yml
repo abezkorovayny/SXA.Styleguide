@@ -4,6 +4,11 @@ Parent: "b139a979-20a3-403b-83f8-6696742a271f"
 Template: "292ccfcd-7790-4692-856b-76014b8038e7"
 Path: /sitecore/system/Settings/Feature/Sitecore/CssAnimations/CSS Animations Site Setup
 DB: master
+SharedFields:
+- ID: "40deee2f-7595-40bd-b2c9-51f9e2346100"
+  Hint: Dependencies
+  Type: Treelist
+  Value: "{BDF83718-907A-435B-B1BA-64139E07983F}"
 Languages:
 - Language: en
   Versions:

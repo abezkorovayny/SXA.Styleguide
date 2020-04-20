@@ -1,0 +1,40 @@
+﻿---
+ID: "d685a547-06c4-40cf-b6b1-14da38f7e357"
+Parent: "092d375c-536f-4faa-b8d0-56ff6b418e87"
+Template: "1fafa9b5-2e35-5896-aa45-728d045d2b43"
+Path: /sitecore/content/Sitecore/Styleguide/Data/wizard
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E60ECEA6-C01A-5D63-8362-237C2F57B5E2}"
+          p:after="*[1=2]"
+          s:rname="Wizard"
+          s:id="{785F3361-AEFB-5E6B-8188-BB7E7C8261F3}"
+          s:par=""
+          s:ph="/jss-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wizard
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

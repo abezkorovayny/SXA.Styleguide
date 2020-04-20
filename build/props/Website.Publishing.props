@@ -27,7 +27,6 @@ Website.Publishing.props
             Your Sitecore website root directory, used for publishing and xml transformations 
               Note: Override this property in .csproj or local Directory.Build.props file for specific publish targets 
               IMPORTANT: Remember trailing slash!-->
-    <!--<PublishRootDirectory>..\..\..\..\Docker\data\cm\wwwroot</PublishRootDirectory>-->
     <PublishRootDirectory>..\..\..\..\deploy</PublishRootDirectory>
 
     <!-- AutoPublishOnBuild

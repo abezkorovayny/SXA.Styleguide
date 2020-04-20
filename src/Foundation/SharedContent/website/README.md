@@ -1,0 +1,1 @@
+# Styleguide.XA.Foundation.SharedContent

@@ -1,0 +1,32 @@
+﻿---
+ID: "6128bd10-98bc-47b0-bcb7-6ad71ed83d61"
+Parent: "26c2c110-b881-43ce-bc3e-1430cdcf330a"
+Template: "f3ad8aa3-9c0a-5acc-80fe-228312dfbba2"
+Path: "/sitecore/content/Sitecore/Styleguide/Data/wizard/step1/Page Data/step1-jss-main-Heading-1"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Heading-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104722Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ac872235-3ab7-59d2-8522-0dd2e5efe1b7"
+      Hint: text
+      Value: Step 1

@@ -48,6 +48,16 @@ SharedFields:
     {68DA2D37-ABC0-4001-BF01-A3FC8D2F1BF9}
 Languages:
 - Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This section contains all web site content.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Web site content.
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Content
   Versions:
   - Version: 1
     Fields:

@@ -27,6 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{09AAFBEF
 		build\props\Website.PackageReferences.props = build\props\Website.PackageReferences.props
 		build\props\Website.ProjectContent.props = build\props\Website.ProjectContent.props
 		build\props\Website.Publishing.props = build\props\Website.Publishing.props
+		build\props\Website.Publishing.props.user.example = build\props\Website.Publishing.props.user.example
 		build\props\Website.References.props = build\props\Website.References.props
 	EndProjectSection
 EndProject
@@ -72,6 +73,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{67CB64
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Common", "src\Project\Common\website\Project.Common.csproj", "{04050A6A-4ACC-4921-81FC-C94C98E0E702}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedContent", "SharedContent", "{DE7ECCF2-0493-4096-9631-A0A289763E90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.XA.Foundation.SharedContent", "src\Foundation\SharedContent\website\Sitecore.XA.Foundation.SharedContent.csproj", "{1EFF7B96-2DBB-440F-8654-A9437E45B0B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedContent", "SharedContent", "{4779C77B-19B8-4BA6-B2AC-FE6C73860DB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecore.XA.Project.SharedContent", "src\Project\SharedContent\website\Sitecore.XA.Project.SharedContent.csproj", "{846E33BA-B667-445B-BE49-935B7060F815}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomContentResolver", "CustomContentResolver", "{EEEFBB7E-2FD2-4A1F-81D5-DACBCD1CE483}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature.CustomContentResolver", "src\Feature\CustomContentResolver\website\Feature.CustomContentResolver.csproj", "{4824DB35-4705-4720-9F7A-77DA90F6AB21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -94,6 +107,18 @@ Global
 		{04050A6A-4ACC-4921-81FC-C94C98E0E702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04050A6A-4ACC-4921-81FC-C94C98E0E702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04050A6A-4ACC-4921-81FC-C94C98E0E702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFF7B96-2DBB-440F-8654-A9437E45B0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFF7B96-2DBB-440F-8654-A9437E45B0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFF7B96-2DBB-440F-8654-A9437E45B0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFF7B96-2DBB-440F-8654-A9437E45B0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846E33BA-B667-445B-BE49-935B7060F815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846E33BA-B667-445B-BE49-935B7060F815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846E33BA-B667-445B-BE49-935B7060F815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846E33BA-B667-445B-BE49-935B7060F815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4824DB35-4705-4720-9F7A-77DA90F6AB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4824DB35-4705-4720-9F7A-77DA90F6AB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4824DB35-4705-4720-9F7A-77DA90F6AB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4824DB35-4705-4720-9F7A-77DA90F6AB21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +139,12 @@ Global
 		{F6EEFA96-4A22-459B-B655-9C8448AB5EF8} = {7DFEAD5C-D9AD-4F08-93C1-88BAB9167965}
 		{67CB644C-93C0-4FB4-BB05-18F48F986D87} = {E43C00A3-FA53-429E-B718-D0E3AE1646E1}
 		{04050A6A-4ACC-4921-81FC-C94C98E0E702} = {67CB644C-93C0-4FB4-BB05-18F48F986D87}
+		{DE7ECCF2-0493-4096-9631-A0A289763E90} = {0CF05B0A-62EF-4332-85DF-5D7BF3DE40B2}
+		{1EFF7B96-2DBB-440F-8654-A9437E45B0B1} = {DE7ECCF2-0493-4096-9631-A0A289763E90}
+		{4779C77B-19B8-4BA6-B2AC-FE6C73860DB7} = {E43C00A3-FA53-429E-B718-D0E3AE1646E1}
+		{846E33BA-B667-445B-BE49-935B7060F815} = {4779C77B-19B8-4BA6-B2AC-FE6C73860DB7}
+		{EEEFBB7E-2FD2-4A1F-81D5-DACBCD1CE483} = {3FDE4019-7549-45E2-97C4-8D6D148FA76E}
+		{4824DB35-4705-4720-9F7A-77DA90F6AB21} = {EEEFBB7E-2FD2-4A1F-81D5-DACBCD1CE483}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54DAD990-0C82-45DF-8FD1-535600678D97}

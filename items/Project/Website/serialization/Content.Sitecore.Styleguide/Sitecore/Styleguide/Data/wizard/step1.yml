@@ -1,0 +1,73 @@
+﻿---
+ID: "5ba89ff7-1761-4f83-99dc-9de5c01aca7a"
+Parent: "d685a547-06c4-40cf-b6b1-14da38f7e357"
+Template: "1fafa9b5-2e35-5896-aa45-728d045d2b43"
+Path: /sitecore/content/Sitecore/Styleguide/Data/wizard/step1
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{DFE9EE71-2967-523B-B76D-1206F4E8237C}"
+          p:after="p[@uid='{CFAC4D5D-1270-5149-957B-5845297AB003}']"
+          s:rname="Heading"
+          s:ds="{4DD0D8D3-4630-55D1-B491-684E9689AF50}"
+          s:id="{BC1C089B-0D07-5410-9AFD-D645D9506B05}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{AEEB9ED4-95A9-54D7-B2DB-3BC70DBCA1AC}"
+          p:after="r[@uid='{DFE9EE71-2967-523B-B76D-1206F4E8237C}']"
+          s:rname="RichText"
+          s:ds="{3CAB1097-9D20-5519-BBB2-ADB5F58756E7}"
+          s:id="{932A0617-11D0-5CDB-BBA8-95E9178BF591}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{783B5EB2-2627-57C8-ABC9-975EA9E5034D}"
+          p:after="r[@uid='{AEEB9ED4-95A9-54D7-B2DB-3BC70DBCA1AC}']"
+          s:rname="Question"
+          s:ds="{F2EE10EF-F56D-5D0D-BDE8-06005DFB4C90}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{FCB18A91-DE1E-56F3-93BE-F6AC67ADEA14}"
+          p:after="r[@uid='{783B5EB2-2627-57C8-ABC9-975EA9E5034D}']"
+          s:rname="Question"
+          s:ds="{26D7E486-1FB2-52BD-831F-1CDBDFEE54D6}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{31233A2E-6CA2-51F1-A0A5-DAF2EACBA77E}"
+          p:after="*[1=2]"
+          s:rname="Question"
+          s:ds="{9C98F115-0317-5A34-B5AF-289E4A8CD9A0}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Step 1
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

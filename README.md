@@ -14,23 +14,15 @@ The Styleguide is built to support **[Sitecore Experience Platform 9.3](https://
 ## Installation
 You can install the styleguide on a Sitecore 9.3 instance with SXA 9.3 installed. Installation can be done using the package you can download from the [releases page](https://github.com/markvanaalst/SXA.Styleguide/releases).
 
-## Running the Stylguide on Docker
-
-### Requirements
-
-1. Windows 1809 or higher, but prefer version 1909  
-2. The latest Docker Desktop **[Docker Desktop](https://docs.docker.com/docker-for-windows/install/)** 
-3. From the Docker Desktop menu, you can toggle which daemon (Linux or Windows) the Docker CLI talks to. Select Switch to Windows containers to use `Windows containers`
-4. Pre-build [docker-images](https://github.com/Sitecore/docker-images/blob/master/README.md) local or taken from your own `ACR` 
-
-### Starting the Styleguide
-
 1. Clone or copy the repository
 2. Open `SXA.Styleguide.sln` in Visual Studio 2019
-3. Build solution
-4. Make sure your license file is located under `C:\License\license.xml`
-5. Run `docker-compose up -d`
-6. Browse to [http://localhost:44001/unicorn.aspx](http://localhost:44001/unicorn.aspx) en run the Unicorn sync
+3. Set local publish target
+   1. Remove .example from the filename `build\props\Website.Publishing.props.user.example`
+   2. Set PublishRootDirectory variable in the file to path your local Sitecore instance
+4. Change Unicorn serialization folder location
+   1. Open `src\Project\Website\website\App_Config\Include\Project\Styleguide.Project.Website\Styleguide.Project.Website.config`
+   2. Change `serializationFolder` to your local folder e.g. `C:\inetpub\wwwroot\INSTANCENAME\App_Data\Unicorn\sxa-styleguide`
+5. Rebuild solution
 
 ## Acknowledgements
 

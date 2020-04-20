@@ -1,0 +1,28 @@
+﻿---
+ID: "0adada6e-35a0-4f74-8ca8-40ed60c4cb16"
+Parent: "655da751-6036-4255-9010-7c11ccdc6242"
+Template: "cb8633c4-c40c-5e5d-8e2b-cd6aeed4f1ee"
+Path: "/sitecore/content/Sitecore/Styleguide/Data/wizard/step2/Page Data/step2-jss-main-RichText-2"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "RichText-2"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104723Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "fd8965ab-2d7e-544e-8ae4-72a2e7b740f9"
+      Hint: text
+      Value: "Please enter your address:"

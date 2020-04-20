@@ -1,0 +1,18 @@
+﻿---
+ID: "655da751-6036-4255-9010-7c11ccdc6242"
+Parent: "7e21ab67-b6ef-4828-9e48-f218af69e6fa"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Sitecore/Styleguide/Data/wizard/step2/Page Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104723Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

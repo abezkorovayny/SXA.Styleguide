@@ -1,0 +1,52 @@
+﻿---
+ID: "0ba37c5d-dd5a-4a0c-9ddf-833910a3e54c"
+Parent: "d685a547-06c4-40cf-b6b1-14da38f7e357"
+Template: "1fafa9b5-2e35-5896-aa45-728d045d2b43"
+Path: /sitecore/content/Sitecore/Styleguide/Data/wizard/step3
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EAD041DA-0290-53B0-9D70-57C210BE444C}"
+          p:after="p[@uid='{CFAC4D5D-1270-5149-957B-5845297AB003}']"
+          s:rname="Heading"
+          s:ds="{6656EAD8-47DE-588A-A0D0-742ABC55E3B3}"
+          s:id="{BC1C089B-0D07-5410-9AFD-D645D9506B05}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{0FA5107A-88E5-5D12-895C-E09EA458B725}"
+          p:after="r[@uid='{EAD041DA-0290-53B0-9D70-57C210BE444C}']"
+          s:rname="RichText"
+          s:ds="{74189C91-5D13-5236-A8D8-59A5635B5D1E}"
+          s:id="{932A0617-11D0-5CDB-BBA8-95E9178BF591}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{36C7609A-F6BC-51C4-B17B-E701506B7A25}"
+          p:after="*[1=2]"
+          s:rname="FormValues"
+          s:id="{1B9FF402-7C6E-5C72-A53E-00DFB39E075C}"
+          s:par=""
+          s:ph="/jss-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Step 3
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104723Z

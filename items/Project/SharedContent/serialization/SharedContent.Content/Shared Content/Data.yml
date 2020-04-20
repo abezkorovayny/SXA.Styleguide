@@ -1,0 +1,18 @@
+﻿---
+ID: "611b2b13-c01d-46cb-8827-dd49f06ce2c3"
+Parent: "2fcaff0c-a536-464e-8d7a-e6dea539bad3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Shared Content/Data
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/data_network.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200211T141441Z

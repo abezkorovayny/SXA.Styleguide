@@ -1,0 +1,31 @@
+﻿---
+ID: "8321cc1e-da40-4f0a-8738-f03c12a894d6"
+Parent: "26c2c110-b881-43ce-bc3e-1430cdcf330a"
+Template: "a0fbd741-ef7d-5ed4-b23e-3a75fee536ae"
+Path: "/sitecore/content/Sitecore/Styleguide/Data/wizard/step1/Page Data/step1-jss-main-Question-5"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Question-5"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104723Z
+    - ID: "2cd3d0c4-b225-5dd5-9249-fc10b1385c13"
+      Hint: inputName
+      Value: email
+    - ID: "346edf22-602d-56b5-989f-ec3cc11b53b8"
+      Hint: label
+      Value: Email
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"

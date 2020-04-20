@@ -1,0 +1,77 @@
+﻿---
+ID: "7e21ab67-b6ef-4828-9e48-f218af69e6fa"
+Parent: "d685a547-06c4-40cf-b6b1-14da38f7e357"
+Template: "1fafa9b5-2e35-5896-aa45-728d045d2b43"
+Path: /sitecore/content/Sitecore/Styleguide/Data/wizard/step2
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1576025B-710A-5581-A1F7-1E25E976E255}"
+          p:after="p[@uid='{CFAC4D5D-1270-5149-957B-5845297AB003}']"
+          s:rname="Heading"
+          s:ds="{CB5F41C8-38B2-5F41-B277-5A1E4628324E}"
+          s:id="{BC1C089B-0D07-5410-9AFD-D645D9506B05}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{E7D8C7AA-2C6F-53F8-BD77-772F726E1381}"
+          p:after="r[@uid='{1576025B-710A-5581-A1F7-1E25E976E255}']"
+          s:rname="RichText"
+          s:ds="{726A79BD-D612-56F9-8023-10BEC585218D}"
+          s:id="{932A0617-11D0-5CDB-BBA8-95E9178BF591}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{F77E6FFC-D625-570E-9B18-19C567EBB35E}"
+          p:after="r[@uid='{E7D8C7AA-2C6F-53F8-BD77-772F726E1381}']"
+          s:rname="Question"
+          s:ds="{B7486139-6AF2-5177-BE59-DDDA6AB02D6C}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{4DD4FA45-F015-5527-B315-1F7A1FE03A50}"
+          p:after="r[@uid='{F77E6FFC-D625-570E-9B18-19C567EBB35E}']"
+          s:rname="Question"
+          s:ds="{81406F6B-8622-5978-8508-1A1387218F9B}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{6E796430-3C9C-5C2F-B5D6-37C16FF459DD}"
+          p:after="r[@uid='{4DD4FA45-F015-5527-B315-1F7A1FE03A50}']"
+          s:rname="Question"
+          s:ds="{CC66232F-B956-58CF-B3CC-579DAA44DB61}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+        <r
+          uid="{A2110361-C056-58DF-902F-691FD524845A}"
+          p:after="*[1=2]"
+          s:rname="Question"
+          s:ds="{99C0B9F1-5E94-5A88-AB02-71D674E5DB78}"
+          s:id="{CECD514C-2F3A-5814-910E-59F53BED7980}"
+          s:par=""
+          s:ph="/jss-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Step 2
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104723Z

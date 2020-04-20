@@ -1,0 +1,18 @@
+﻿---
+ID: "26c2c110-b881-43ce-bc3e-1430cdcf330a"
+Parent: "5ba89ff7-1761-4f83-99dc-9de5c01aca7a"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Sitecore/Styleguide/Data/wizard/step1/Page Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T104722Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

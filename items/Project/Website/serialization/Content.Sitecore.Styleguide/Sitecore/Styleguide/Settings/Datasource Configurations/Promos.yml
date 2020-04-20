@@ -1,0 +1,30 @@
+﻿---
+ID: "15e74bda-7474-4281-aba8-dd7583940082"
+Parent: "5024bc67-d7a6-4923-8a62-b36f2ecdfa68"
+Template: "b291f15d-674f-4036-9b6a-976deaab587d"
+Path: /sitecore/content/Sitecore/Styleguide/Settings/Datasource Configurations/Promos
+DB: master
+SharedFields:
+- ID: "3b02fc13-2695-4ea5-a0c6-621cda79dbeb"
+  Hint: DatasourceLocation
+  Type: Treelist
+  Value: "{E5C26FA8-45DA-4649-95DC-32F231777687}"
+- ID: "cf488616-964c-4898-bb4e-c468d9bcba1e"
+  Hint: CompatibleRenderings
+  Type: Treelist
+  Value: "{51C13F03-8364-4F61-B860-2EC6CA7439B3}"
+- ID: "e38f6435-6644-42e0-8e93-2c18ff0547d5"
+  Hint: DatasourceTemplate
+  Value: /sitecore/templates/Feature/Experience Accelerator/Page Content/Promo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200414T141301Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
