@@ -1,1 +1,1 @@
-# Styleguide.Feature.CssAnimation
+# Styleguide.Feature.CustomContentResolver
