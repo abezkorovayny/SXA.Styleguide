@@ -3,6 +3,9 @@
     <TargetFramework>net472</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Feature\Styleguide.Feature.CustomContentResolver\Styleguide.Feature.CustomContentResolver.Serialization.config.example" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Sitecore.LayoutService" Version="9.3.0" />
   </ItemGroup>
 </Project>
